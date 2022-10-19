@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>cool blue</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="narvbar"></div>
+    <div id="logo"><p id="logo_tekst">cool blue</p></div>
+    <div id="white"></div>
+    <div>
+      <h1 id="title">Je gegevens <strong class="oranje">.</strong></h1>
+      <p id="subtitle"> Wat moet er op de factuur staan?</p>
+      <div id="woorden"> <p id="een" class="float_right">Type besteling:</p> <p id="twee" class="float_right">Aanhef:</p><p class="float_right"  id="elf">Naam:</p> <p id="drie" class="float_right">Postcode:</p>  <p id="vier" class="float_right">Huisnummer:</p>  <p id="vijf" class="float_right">Land:</p><p id="zes" class="float_right">Afleveradres:</p>  <p id="zeven" class="float_right">e-mailadres:</p>  <p id="acht" class="float_right">Telefoonnummer:</p>  <p id="negen" class="float_right">Gebortendatum:</p> <p id="twaalf" class="float_right">Verzendwijze facatuur:</p> <p class="float_right" id="viertien">Nieuwsbrief:</p><p id="tien" class="float_right">Kleur verpakking:</p> </div>
+      <form>
+       <p class="magin_left">
+         <input type="radio" value="particulier" />particulie
+         <input type="radio" value="zakelijk" />zakelijk
+       </p>
+       <p class="magin_left">
+         <input type="radio" name="Dhr." value="Dhr." /> Dhr.
+         <input type="radio" value="Mevr." /> Mevr.
+        </p>
+       <p class="magin_left">
+         <input type="name" name="voornaam" placeholder="Voornaam" />
+         <input
+           type="name"
+           name="tussenvoegsel"
+           placeholder="tussenv."
+           style="width: 50px"
+         />
+         <input type="name" name="achternaam" placeholder="achternaam"
+       </p>
+       <p class="magin_left">
+        <input type="text" placeholder="ab1234" />
+       </p>
+       <p class="magin_left">
+        <input type="number" placeholder="1" class="huisnummer" style="width:20px"/>
+        <input class="huisnummer" type="text" style="width: 20px" placeholder="a" />
+        <br />
+       </p>
+       <p class="magin_left">
+        <input type="datalist" name="country" size="40" list="countries" placeholder="Nederland"/>
+        <datalist>
+          <option value="Nederland" />
+          <option value="België" />
+        </datalist>
+       </p>
+       <p class="magin_left">
+        <input type="radio" value="op bovenstaande adres afleveren" />
+        op bovenstaande adres afleveradres
+        <input type="radio" value="op ander adres bezorgen" /> op ander adres
+        bezorgen
+       </p>
+       <p class="magin_left">
+        <input type="email" name="email" placeholder="email" required />
+       </p>
+       <p class="magin_left"> <input type="number" required /></p>
+       <p class="magin_left"> <input type="date" required /></p>
+       <p class="magin_left">
+        <input type="radio" value="facatuur per email" required /> facatuur per email
+        <input type="radio" value="facatuur geprint bij de besteling" required />
+        facatuur geprint bij de besteling
+       </p>
+       <p class="magin_left">
+        <input type="checkbox" name="ja" value="ja"/>
+         ja, ik wil de Coolblue-nieuwsbrief met 5€,- cadeaubon voor mijn volgende
+         besteling
+       </p>
+       <p class="magin_left">
+        <input type="color" value="kleur verpakking" style="width: 200px" />
+       </p>
+      </form>
+       <h2 id="header2">Bewaar je gegevens.</h2>
+       <p id="subtitle2""> Handig voor de volgende keer,</p>
+      <form>
+       <p class="left">Wachtwoord <input type="password" name="password" </p>
+       <P id="wachtwoord_voorwaarden"> Minimaal 6 karakters. <br>  verder doen we niet zo moeilijk.</P>
+       <p class="left">Wachtwoord bevestigen <input type="password" name="password" </p>
+       <p class="left"><textarea rows="5" cols="50" name="opmerkingen"/></textarea></p>
+       <p class="left"><input id="submit" type="submit" name="submit"/></p>
+      </form>
+    </div> 
+    <div id="footer">
+      <div id="telefoon">
+      </div>
+      <h2 id="bel">bel 012 3456789</h2>
+    </div>
+  </body>
+</html>
